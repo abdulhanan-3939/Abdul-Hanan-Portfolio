@@ -30,7 +30,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: 'Location',
-    value: 'Islamabad, Pakistan',
+    value: 'Okara, Punjab, Pakistan',
     href: '#',
     color: '#34d399',
   },

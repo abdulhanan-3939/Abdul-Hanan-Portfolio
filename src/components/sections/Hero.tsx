@@ -125,7 +125,7 @@ export default function Hero() {
                 flexShrink: 0,
               }} />
               <Sparkles size={12} />
-              Available for Internships · 2025
+              Available for Internships · 2026
             </div>
           </motion.div>
 

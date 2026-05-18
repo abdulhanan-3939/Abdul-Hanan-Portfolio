@@ -126,7 +126,7 @@ export default function About() {
 
                 {/* Tags */}
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', marginTop: '1.75rem' }}>
-                  {['Open to Intern', 'Fast Learner', 'Islamabad, Pakistan', 'Full Time Student'].map(t => (
+                  {['Open to Intern', 'Fast Learner', 'Okara, Punjab, Pakistan', 'Full Time Student'].map(t => (
                     <span key={t} className="tag">{t}</span>
                   ))}
                 </div>
