@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { motion } from 'framer-motion';
+import { motion, type Variants } from 'framer-motion';
 import { Mail, Download, ChevronDown, Sparkles } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from '../ui/SocialIcons';
 
@@ -15,7 +15,7 @@ export default function Hero() {
   const [roleIdx, setRoleIdx] = useState(0);
   const [displayText, setDisplayText] = useState('');
   const [typing, setTyping] = useState(true);
-  const timeout = useRef<ReturnType<typeof setTimeout>>();
+  const timeout = useRef<ReturnType<typeof setTimeout>>(undefined);
 
   useEffect(() => {
     const target = roles[roleIdx];
@@ -48,7 +48,7 @@ export default function Hero() {
     { icon: Mail, href: 'mailto:abdulhananruru39@gmail.com', label: 'Email' },
   ];
 
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -56,7 +56,7 @@ export default function Hero() {
     },
   };
 
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { opacity: 0, y: 30 },
     visible: {
       opacity: 1, y: 0,

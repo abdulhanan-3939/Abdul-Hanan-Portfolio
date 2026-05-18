@@ -1,5 +1,5 @@
 import { useRef, useEffect, useState } from 'react';
-import { motion, useInView } from 'framer-motion';
+import { useInView } from 'framer-motion';
 import ScrollReveal from '../ui/ScrollReveal';
 import { Code2, Brain, Rocket, Target } from 'lucide-react';
 
