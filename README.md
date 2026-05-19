@@ -1,6 +1,21 @@
 # Abdul Hanan — Portfolio Website
 
-A modern, cinematic, internship-focused developer portfolio built with React + Vite + Tailwind CSS + Framer Motion.
+<div align="center">
+
+### 🌐 Live Demo
+
+## ➡️ [abdul-hanan-portfolio-tzwo.vercel.app](https://abdul-hanan-portfolio-tzwo.vercel.app/)
+
+[![Live on Vercel](https://img.shields.io/badge/▶%20View%20Live%20Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://abdul-hanan-portfolio-tzwo.vercel.app/)
+&nbsp;
+[![Deployment Status](https://img.shields.io/badge/Deployment-Active-brightgreen?style=for-the-badge&logo=vercel)](https://abdul-hanan-portfolio-tzwo.vercel.app/)
+
+</div>
+
+---
+
+A modern, cinematic, internship-focused developer portfolio built with React + Vite + TypeScript + Framer Motion.
+
 
 ## ✨ Features
 
